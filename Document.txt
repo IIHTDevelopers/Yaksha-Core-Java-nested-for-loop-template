@@ -1,0 +1,78 @@
+Assessment Tasks for "Nested For Loop" Topic
+Task 1: Print a Right-Angled Triangle Pattern
+Problem: Write a program that prints a right-angled triangle pattern of stars (*) based on the number of rows input by the user. The number of stars in each row should increase by one for each subsequent row.
+
+Example:
+
+Input: 4
+Output:
+
+markdown
+Copy code
+*
+**
+***
+****
+Explanation: The program will use a nested for loop where the outer loop controls the rows, and the inner loop controls the number of stars printed in each row. The number of stars increases with each row.
+
+Task 2: Multiplication Table Grid
+Problem: Write a program that prints the multiplication table of numbers from 1 to 5 in a grid format. Each row should represent the multiplication results of one number, and each column should display the product of the number and a multiplier from 1 to 5.
+
+Example:
+
+Output:
+
+Copy code
+1 x 1 = 1  1 x 2 = 2  1 x 3 = 3  1 x 4 = 4  1 x 5 = 5
+2 x 1 = 2  2 x 2 = 4  2 x 3 = 6  2 x 4 = 8  2 x 5 = 10
+3 x 1 = 3  3 x 2 = 6  3 x 3 = 9  3 x 4 = 12  3 x 5 = 15
+4 x 1 = 4  4 x 2 = 8  4 x 3 = 12  4 x 4 = 16  4 x 5 = 20
+5 x 1 = 5  5 x 2 = 10  5 x 3 = 15  5 x 4 = 20  5 x 5 = 25
+Explanation: The outer loop controls the rows, and the inner loop handles the multiplication for each number, printing the result in a grid-like format.
+
+Task 3: Find Prime Numbers within a Range
+Problem: Write a program that prints all prime numbers in a given range (from a lower limit to an upper limit). A prime number is a number greater than 1 that is divisible only by 1 and itself. The program should use a nested for loop to check for prime numbers.
+
+Example:
+
+Input: 10, 20
+Output: 11 13 17 19
+
+Explanation: The outer loop iterates through numbers in the given range, and the inner loop checks if a number is divisible by any number from 2 to the square root of the number. If it's divisible, it's not prime.
+
+Task 4: Floyd's Triangle
+Problem: Write a program to print Floyd’s triangle. Floyd’s triangle is a right-angled triangle where the numbers in the triangle start from 1 and increase by one in each subsequent position.
+
+Example:
+
+Input: 5
+Output:
+
+Copy code
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+Explanation: The outer loop controls the number of rows, and the inner loop prints the numbers sequentially in each row.
+
+Task 5: Create a Multiplication Table of Any Number
+Problem: Write a program that prints the multiplication table of a given number, up to 10, in a format where each row shows the multiplication for numbers from 1 to 10. The user should input the number, and the program will display the multiplication table.
+
+Example:
+
+Input: 3
+Output:
+
+Copy code
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
+3 x 6 = 18
+3 x 7 = 21
+3 x 8 = 24
+3 x 9 = 27
+3 x 10 = 30
+Explanation: The outer loop will iterate through each multiplier (from 1 to 10), and the inner loop will perform the multiplication for the given number.
